@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday Aparna! 🎂</title>
+    <title>Happy Birthday Aparna Dumdum! 🎂</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #ff6b9d 0%, #c44dff 50%, #667eea 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -33,7 +33,7 @@
             position: absolute;
             width: 4px;
             height: 4px;
-            background: gold;
+            background: #ffd700;
             border-radius: 50%;
             animation: sparkleAnim 0.5s ease-out forwards;
         }
@@ -77,13 +77,15 @@
             color: white;
             font-weight: bold;
             animation: pulse 1s infinite;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         .countdown {
             font-size: 72px;
-            color: #ffeaa7;
+            color: #ffd700;
             font-weight: bold;
             margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         @keyframes pulse {
@@ -138,7 +140,7 @@
         .gift-lid {
             width: 220px;
             height: 40px;
-            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            background: linear-gradient(45deg, #ff6b9d, #ff4757);
             position: absolute;
             top: 0;
             left: -10px;
@@ -151,7 +153,7 @@
         .gift-body {
             width: 200px;
             height: 160px;
-            background: linear-gradient(45deg, #ff7675, #d63031);
+            background: linear-gradient(45deg, #ff8cba, #ff6348);
             position: absolute;
             top: 35px;
             left: 0;
@@ -162,7 +164,7 @@
         .ribbon-vertical {
             width: 20px;
             height: 160px;
-            background: #ffeaa7;
+            background: #ffd700;
             position: absolute;
             left: 90px;
             top: 0;
@@ -171,7 +173,7 @@
         .ribbon-horizontal {
             width: 200px;
             height: 20px;
-            background: #ffeaa7;
+            background: #ffd700;
             position: absolute;
             top: 70px;
             left: 0;
@@ -189,7 +191,7 @@
         .bow-left, .bow-right {
             width: 30px;
             height: 30px;
-            background: #ffeaa7;
+            background: #ffd700;
             border-radius: 50%;
             position: absolute;
         }
@@ -200,7 +202,7 @@
         .bow-center {
             width: 20px;
             height: 20px;
-            background: #fdcb6e;
+            background: #ffa502;
             border-radius: 50%;
             position: absolute;
             left: 20px;
@@ -213,24 +215,25 @@
             color: white;
             margin-bottom: 20px;
             animation: pulse 2s infinite;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         .security-text {
             font-size: 24px;
-            color: #ffeaa7;
+            color: #ffd700;
             margin-bottom: 30px;
         }
 
         .pink-btn {
             padding: 20px 40px;
             font-size: 24px;
-            background: linear-gradient(45deg, #fd79a8, #e84393);
+            background: linear-gradient(45deg, #ff6b9d, #ff1493);
             color: white;
             border: none;
             border-radius: 50px;
             cursor: pointer;
             font-weight: bold;
-            box-shadow: 0 5px 20px rgba(232, 67, 147, 0.5);
+            box-shadow: 0 5px 20px rgba(255, 20, 147, 0.5);
             transition: all 0.3s ease;
             margin: 10px;
             animation: pulse 2s infinite;
@@ -238,13 +241,13 @@
 
         .pink-btn:hover {
             transform: scale(1.1);
-            box-shadow: 0 8px 30px rgba(232, 67, 147, 0.8);
+            box-shadow: 0 8px 30px rgba(255, 20, 147, 0.8);
         }
 
         .no-btn {
             padding: 15px 30px;
             font-size: 18px;
-            background: #636e72;
+            background: #6c5ce7;
             color: white;
             border: none;
             border-radius: 50px;
@@ -254,7 +257,7 @@
         }
 
         .funny-message {
-            color: #ffeaa7;
+            color: #ffd700;
             font-size: 24px;
             margin-top: 20px;
             animation: fadeIn 0.5s ease;
@@ -262,53 +265,63 @@
 
         /* Page 4 - Birthday Surprise */
         .birthday-title {
-            font-size: 48px;
+            font-size: 42px;
             color: #fff;
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            background: linear-gradient(45deg, #ffd700, #ff6b9d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         .birthday-message {
-            font-size: 22px;
+            font-size: 20px;
             color: white;
             line-height: 1.8;
             margin: 30px 0;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
         }
 
-        /* Love Meter */
-        .love-meter {
-            background: white;
+        /* Friendship Meter */
+        .friendship-meter {
+            background: linear-gradient(135deg, #ff6b9d, #c44dff);
             padding: 30px;
             border-radius: 20px;
             margin: 30px auto;
             max-width: 400px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border: 2px solid #ffd700;
         }
 
-        .love-level {
-            font-size: 32px;
-            color: #e84393;
+        .friendship-level {
+            font-size: 28px;
+            color: #ffd700;
             font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
 
-        .love-bar {
+        .friendship-bar {
             width: 100%;
             height: 30px;
-            background: #dfe6e9;
+            background: rgba(255, 255, 255, 0.3);
             border-radius: 15px;
             margin: 15px 0;
             overflow: hidden;
         }
 
-        .love-fill {
+        .friendship-fill {
             height: 100%;
-            background: linear-gradient(90deg, #fd79a8, #e84393);
+            background: linear-gradient(90deg, #ffd700, #ff6b9d, #c44dff);
             border-radius: 15px;
-            animation: loveFill 2s ease forwards;
+            animation: friendshipFill 2s ease forwards;
         }
 
-        @keyframes loveFill {
+        @keyframes friendshipFill {
             from { width: 0%; }
             to { width: 100%; }
         }
@@ -326,7 +339,7 @@
             position: relative;
             width: 200px;
             height: 150px;
-            background: linear-gradient(45deg, #fd79a8, #e84393);
+            background: linear-gradient(45deg, #ff6b9d, #c44dff);
             border-radius: 10px;
             margin-top: 50px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -337,7 +350,7 @@
             bottom: 0;
             width: 100%;
             height: 50px;
-            background: linear-gradient(45deg, #fab1a0, #e17055);
+            background: linear-gradient(45deg, #ffd700, #ffa502);
             border-radius: 0 0 10px 10px;
         }
 
@@ -345,7 +358,7 @@
             position: absolute;
             width: 8px;
             height: 40px;
-            background: linear-gradient(45deg, #ffeaa7, #fdcb6e);
+            background: linear-gradient(45deg, #ffd700, #ffa502);
             top: -40px;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -451,32 +464,15 @@
             }
         }
 
-        /* Typewriter Effect */
-        .typewriter {
-            overflow: hidden;
-            border-right: 3px solid white;
-            white-space: nowrap;
-            animation: typing 3s steps(40) forwards, blink 0.75s step-end infinite;
-            display: inline-block;
-        }
-
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 100%; }
-        }
-
-        @keyframes blink {
-            50% { border-color: transparent; }
-        }
-
         /* Random Quotes */
         .quote-box {
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.15);
             padding: 20px;
             border-radius: 15px;
             margin: 20px auto;
             max-width: 500px;
             backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 215, 0, 0.3);
         }
 
         .quote-text {
@@ -487,21 +483,36 @@
 
         .music-btn {
             padding: 10px 20px;
-            background: #e84393;
+            background: linear-gradient(45deg, #ff6b9d, #c44dff);
             color: white;
             border: none;
             border-radius: 50px;
             cursor: pointer;
             margin: 10px;
             font-size: 16px;
+            border: 2px solid #ffd700;
+            transition: all 0.3s ease;
+        }
+
+        .music-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(196, 77, 255, 0.5);
         }
 
         .final-message {
-            font-size: 36px;
+            font-size: 32px;
             color: white;
             font-weight: bold;
             margin-top: 30px;
             animation: pulse 2s infinite;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .nickname {
+            color: #ffd700;
+            font-size: 24px;
+            margin: 10px 0;
+            font-style: italic;
         }
 
         .hearts-container {
@@ -522,14 +533,15 @@
     <div class="container">
         <!-- Page 1 - Loading Screen -->
         <div class="page active" id="page1">
-            <div class="loading-text">🎉 Loading your surprise...</div>
+            <div class="loading-text">🎉 Loading surprise for Dumdum...</div>
             <div class="countdown" id="countdown">3</div>
         </div>
 
         <!-- Page 2 - Gift Box -->
         <div class="page" id="page2">
             <h1 style="color: white; font-size: 36px; margin-bottom: 20px;">🎁 Happy Birthday Aparna!</h1>
-            <p style="color: #ffeaa7; font-size: 20px; margin-bottom: 30px;">Tap the gift to open your surprise.</p>
+            <p class="nickname">A.K.A. Dumdum 😄</p>
+            <p style="color: #ffd700; font-size: 20px; margin-bottom: 30px;">Tap the gift to open your surprise.</p>
             <div class="gift-box" id="giftBox">
                 <div class="gift-lid">
                     <div class="bow">
@@ -557,28 +569,30 @@
 
         <!-- Page 4 - Birthday Surprise -->
         <div class="page" id="page4">
-            <div class="birthday-title">❤️ Happy 19th Birthday Aparna ❤️</div>
+            <div class="birthday-title">🎂 Happy 19th Birthday Aparna Dumdum! 🎂</div>
             
             <div class="birthday-message" id="birthdayMsg">
-                <p>You are the most beautiful person in my life.</p>
-                <p>Thank you for making every day brighter.</p>
-                <p>I hope this year brings you endless happiness, love, laughter, and all your dreams.</p>
-                <p>I love you so much. ❤️</p>
+                <p>Hey Dumdum! 😄</p>
+                <p>Happy 19th Birthday to the most amazing and fun person I know!</p>
+                <p>Thank you for being such an awesome friend and making every day brighter with your craziness.</p>
+                <p>I hope this year brings you endless happiness, laughter, and all your dreams come true!</p>
+                <p>Stay as amazing and dumdum as you are! 😂</p>
+                <p>Love you loads! ❤️</p>
             </div>
 
             <!-- Music Button -->
             <button class="music-btn" id="musicBtn">🎵 Play Birthday Music</button>
             <audio id="birthdayMusic" loop>
-                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                <source src="https://dull-gold-rnfctuzm.edgeone.dev/" type="audio/mpeg">
             </audio>
 
-            <!-- Love Meter -->
-            <div class="love-meter">
-                <div class="love-level">Love Level ❤️</div>
-                <div class="love-bar">
-                    <div class="love-fill"></div>
+            <!-- Friendship Meter -->
+            <div class="friendship-meter">
+                <div class="friendship-level">Friendship Level 🌟</div>
+                <div class="friendship-bar">
+                    <div class="friendship-fill"></div>
                 </div>
-                <div class="love-level">100000%</div>
+                <div class="friendship-level">∞% (Infinity Dumdum!)</div>
             </div>
 
             <!-- Cake Animation -->
@@ -597,8 +611,8 @@
 
             <!-- Final Message -->
             <div class="final-message">
-                Forever Yours ❤️<br>
-                Happy Birthday My Love
+                Happy Birthday Dumdum! 🎉<br>
+                <span style="font-size: 20px;">Stay Crazy, Stay Awesome! ❤️</span>
             </div>
         </div>
     </div>
@@ -633,7 +647,7 @@
 
         // Confetti Function
         function createConfetti(count = 50) {
-            const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7', '#dfe6e9', '#fd79a8', '#a29bfe', '#ff9f43', '#00d2d3'];
+            const colors = ['#ff6b9d', '#c44dff', '#ffd700', '#ff4757', '#ff6348', '#ffa502', '#7bed9f', '#70a1ff', '#ff1493', '#00d2d3'];
             
             for (let i = 0; i < count; i++) {
                 setTimeout(() => {
@@ -656,7 +670,7 @@
         function createFloatingHeart() {
             const heart = document.createElement('div');
             heart.className = 'floating-heart';
-            heart.textContent = ['❤️', '💕', '💖', '💗', '💝'][Math.floor(Math.random() * 5)];
+            heart.textContent = ['❤️', '💕', '💖', '💗', '💝', '🌟', '✨'][Math.floor(Math.random() * 7)];
             heart.style.left = Math.random() * 100 + '%';
             heart.style.bottom = '-50px';
             heart.style.fontSize = (Math.random() * 30 + 20) + 'px';
@@ -672,7 +686,7 @@
             firework.style.left = x + 'px';
             firework.style.top = y + 'px';
             
-            const colors = ['#ff6b6b', '#ffd93d', '#6bcb77', '#4d96ff', '#ff6b9d', '#c44dff'];
+            const colors = ['#ff6b9d', '#ffd700', '#c44dff', '#ff4757', '#ffa502', '#7bed9f'];
             
             for (let i = 0; i < 30; i++) {
                 const particle = document.createElement('div');
@@ -691,16 +705,16 @@
 
         // Random Quotes
         const quotes = [
-            "You're the peanut butter to my jelly! 🥜",
-            "You make my heart skip a beat! 💓",
-            "Best decision ever? Being your friend! 🌟",
-            "You're more fun than bubble wrap! 🎯",
-            "Life's better with you in it! ✨",
-            "You're the rainbow after my rain! 🌈",
-            "Thanks for being you! 🎉",
-            "You're simply the best! 🏆",
-            "Smile! It's your birthday! 😊",
-            "You're a star! ⭐"
+            "Dumdum, you're the best kind of crazy! 🤪",
+            "Who needs brains when you're this awesome? 😂",
+            "You're not dumdum, you're uniquely brilliant! ✨",
+            "Life's more fun with a dumdum friend like you! 🎉",
+            "You make being silly look cool! 😎",
+            "Best dumdum award goes to... YOU! 🏆",
+            "Thanks for being my favorite dumdum! ❤️",
+            "You're the rainbow in my cloudy days! 🌈",
+            "Stay dumdum, stay happy! 😄",
+            "You're not just dumdum, you're MY dumdum! 💕"
         ];
 
         function showRandomQuote() {
@@ -712,7 +726,7 @@
         function createBalloon() {
             const balloon = document.createElement('div');
             balloon.className = 'balloon';
-            balloon.textContent = ['🎈', '🎈', '🎈', '🎉', '🎊'][Math.floor(Math.random() * 5)];
+            balloon.textContent = ['🎈', '🎈', '🎈', '🎉', '🎊', '🌟'][Math.floor(Math.random() * 6)];
             balloon.style.left = Math.random() * 80 + 10 + '%';
             balloon.style.bottom = '0';
             document.body.appendChild(balloon);
@@ -767,7 +781,7 @@
                     }, i * 500);
                 }
                 
-                cakeContainer.querySelector('p').textContent = '🎉 Happy Birthday! Balloons away! 🎈';
+                cakeContainer.querySelector('p').textContent = '🎉 Happy Birthday Dumdum! Balloons away! 🎈';
                 createConfetti(100);
                 candlesLit = false;
                 
@@ -821,7 +835,7 @@
             btn.style.left = newX + 'px';
             btn.style.top = newY + 'px';
             
-            funnyMessage.textContent = 'Nice try 😂';
+            funnyMessage.textContent = 'Nice try Dumdum 😂';
             funnyMessage.className = 'funny-message';
             
             setTimeout(() => {
